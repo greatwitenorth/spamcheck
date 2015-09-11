@@ -2,8 +2,6 @@
 
 namespace Greatwitenorth\Spamcheck;
 
-use Greatwitenorth\Spamcheck\Result;
-
 class SpamassassinClient implements ClientInterface
 {
     protected $hostname = 'localhost';
